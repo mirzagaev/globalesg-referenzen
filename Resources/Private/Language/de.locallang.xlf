@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+  <file source-language="de" datatype="plaintext" target-language="de" original="EXT:globale/Resources/Private/Language/locallang" date="2020-06-13T11:22:06Z" product-name="globale">
+    <header/>
+    <body>
+      <trans-unit id="code">
+        <source>Code</source>
+        <target>Code</target>
+      </trans-unit>
+      <trans-unit id="name">
+        <source>Name</source>
+        <target>Name</target>
+      </trans-unit>
+      <trans-unit id="city">
+        <source>City</source>
+        <target>Stadt</target>
+      </trans-unit>
+      <trans-unit id="country">
+        <source>Country</source>
+        <target>Land</target>
+      </trans-unit>
+      <trans-unit id="description">
+        <source>Description</source>
+        <target>Beschreibung</target>
+      </trans-unit>
+      <trans-unit id="scope">
+        <source>Scope</source>
+        <target>Scope</target>
+      </trans-unit>
+      <trans-unit id="status">
+        <source>Status</source>
+        <target>Status</target>
+      </trans-unit>
+      <trans-unit id="views">
+        <source>Views</source>
+        <target>Anzahl der Ansichten</target>
+      </trans-unit>
+      <trans-unit id="images">
+        <source>Images</source>
+        <target>Bilder</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

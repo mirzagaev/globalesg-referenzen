@@ -1,0 +1,37 @@
+<f:layout name="Default" />
+
+<f:section name="main">
+
+<div class="referenzensearch">
+	<f:form object="{referenzSuche}" name="referenzSuche" action="list">
+		<f:form.textfield class="powermail_input form-control" property="name" value="{suchwort}" placeholder="Referenzen durchsuchen" />
+		<f:form.submit value="Search" />
+	</f:form>
+</div>
+
+<div class="referenzenuebersicht card-group-element card-group-element-align-left card-group-element-columns-4">
+	<f:for each="{referenzen}" as="referenz">
+		<div class="card-group-element-item" id="referenz_{referenz.uid}">
+			<div class="card">
+				<f:if condition="{referenz.images.0}">
+					<div class="card-img-top">
+						<figure class="image">
+							<f:link.action action="show" pageUid="93" arguments="{uid: referenz.uid}">
+						        <f:image image="{referenz.images.0}" width="600" height="350" treatIdAsReference="1" alt="{referenz.images.0.originalResource.description}" title="{referenz.images.0.title}" cropVariant="desktop" />
+						    </f:link.action>
+					    </figure>
+					</div>
+				</f:if>
+				<div class="card-body">
+					<f:link.action action="show" class="card-body-content" pageUid="93" arguments="{uid: referenz.uid}">
+						<h2 class="card-title">
+							{referenz.name}
+						</h2>
+						<p>{referenz.city}, {referenz.country}</p>
+					</f:link.action>
+				</div>
+			</div>
+		</div>
+	</f:for>
+</div>
+</f:section>

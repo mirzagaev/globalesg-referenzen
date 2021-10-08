@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2020-06-13T11:22:06Z" product-name="globale">
+		<header/>
+		<body>
+			<trans-unit id="code">
+				<source>Code</source>
+			</trans-unit>
+			<trans-unit id="name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="city">
+				<source>City</source>
+			</trans-unit>
+			<trans-unit id="country">
+				<source>Country</source>
+			</trans-unit>
+			<trans-unit id="description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="scope">
+				<source>Scope</source>
+			</trans-unit>
+			<trans-unit id="status">
+				<source>Status</source>
+			</trans-unit>
+			<trans-unit id="views">
+				<source>Views</source>
+			</trans-unit>
+			<trans-unit id="images">
+				<source>Images</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

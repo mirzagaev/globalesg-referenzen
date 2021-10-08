@@ -1,0 +1,38 @@
+<f:layout name="Default" />
+
+<f:section name="main">
+<section class="referenzshow row">
+	<div class="col-md-8">
+		<div class="referenzSlider-wrap">
+			<ul id="referenzSlider">
+				<f:for each="{referenz.images}" as="image">
+					<li data-thumb="{f:uri.image(image: image, width: 100, treatIdAsReference: 1, crop: desktop)}" data-src="{f:uri.image(image: image, height: 700, treatIdAsReference: 1, crop: desktop)}">
+						<img src="{f:uri.image(image: image, height: 700, treatIdAsReference: 1, crop: desktop)}" alt="{image.originalResource.description}" title="{image.originalResource.title}"  />
+					</li>
+				</f:for>	
+			</ul>
+		</div>
+	</div>
+	<main class="col-md-4">
+		<header class="frame-header">
+			<h1 class="element-header"><span>{referenz.name}</span></h1>
+			<h3 class="element-subheader "><span>{referenz.city}, {referenz.country}</span></h3>
+		</header>
+
+		<div class="frame">
+			<h4><f:translate key="LLL:EXT:globale/Resources/Private/Language/locallang.xlf:description" /></h4>
+			<p class="lead">{referenz.description}</p>
+		</div>
+
+		<div class="frame">
+			<h4><f:translate key="LLL:EXT:globale/Resources/Private/Language/locallang.xlf:scope" /></h4>
+			<p class="lead">{referenz.scope}</p>
+		</div>
+
+		<div class="frame">
+			<h4><f:translate key="LLL:EXT:globale/Resources/Private/Language/locallang.xlf:status" /></h4>
+			<p class="lead">{referenz.status}</p>
+		</div>
+	</main>
+</section>
+</f:section>

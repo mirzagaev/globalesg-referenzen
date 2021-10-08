@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="de" datatype="plaintext" original="EXT:globale/Resources/Private/Language/locallang_db" date="2020-06-13T11:22:06Z" product-name="globale">
+		<header/>
+		<body>
+			<trans-unit id="tx_globale_domain_model_referenz" resname="tx_globale_domain_model_referenz">
+				<source>Referenz</source>
+			</trans-unit>
+			<trans-unit id="tx_globale_domain_model_referenz.code" resname="tx_globale_domain_model_referenz.code">
+				<source>Code</source>
+			</trans-unit>
+			<trans-unit id="tx_globale_domain_model_referenz.name" resname="tx_globale_domain_model_referenz.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_globale_domain_model_referenz.city" resname="tx_globale_domain_model_referenz.city">
+				<source>City</source>
+			</trans-unit>
+			<trans-unit id="tx_globale_domain_model_referenz.country" resname="tx_globale_domain_model_referenz.country">
+				<source>Country</source>
+			</trans-unit>
+			<trans-unit id="tx_globale_domain_model_referenz.description" resname="tx_globale_domain_model_referenz.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_globale_domain_model_referenz.scope" resname="tx_globale_domain_model_referenz.scope">
+				<source>Scope</source>
+			</trans-unit>
+			<trans-unit id="tx_globale_domain_model_referenz.status" resname="tx_globale_domain_model_referenz.status">
+				<source>Status</source>
+			</trans-unit>
+			<trans-unit id="tx_globale_domain_model_referenz.views" resname="tx_globale_domain_model_referenz.views">
+				<source>Views</source>
+			</trans-unit>
+			<trans-unit id="tx_globale_domain_model_referenz.images" resname="tx_globale_domain_model_referenz.images">
+				<source>Images</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
